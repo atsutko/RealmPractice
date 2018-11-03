@@ -1,14 +1,14 @@
 //
-//  DetailViewController.swift
+//  CustomMemoListViewController.swift
 //  RealmPractice
 //
-//  Created by TakaoAtsushi on 2018/10/21.
+//  Created by TakaoAtsushi on 2018/11/02.
 //  Copyright © 2018 TakaoAtsushi. All rights reserved.
 //
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class CustomMemoListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
