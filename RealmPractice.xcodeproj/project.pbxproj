@@ -10,6 +10,10 @@
 		128B94A62E25994D30641DF3 /* Pods_RealmPracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B3B3B8AD3F254B725DE56C /* Pods_RealmPracticeTests.framework */; };
 		6FBDB3E95F748B8DA9998477 /* Pods_RealmPracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26C419A0EE0AFAC7FF67BF2 /* Pods_RealmPracticeUITests.framework */; };
 		B1B93FC6FC10556FEADB5B13 /* Pods_RealmPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F2A6FBFA0805A15FC2C539 /* Pods_RealmPractice.framework */; };
+		C122342A217F043A00649359 /* CustomMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1223429217F043A00649359 /* CustomMemo.swift */; };
+		C16160E5218C7C8500DD6A22 /* CustomMemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16160E4218C7C8500DD6A22 /* CustomMemoListViewController.swift */; };
+		C16160E8218C7E4600DD6A22 /* CustomMemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16160E6218C7E4600DD6A22 /* CustomMemoTableViewCell.swift */; };
+		C16160E9218C7E4600DD6A22 /* CustomMemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C16160E7218C7E4600DD6A22 /* CustomMemoTableViewCell.xib */; };
 		C1A871BF217C67B0006B6E94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A871BE217C67B0006B6E94 /* AppDelegate.swift */; };
 		C1A871C1217C67B0006B6E94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A871C0217C67B0006B6E94 /* ViewController.swift */; };
 		C1A871C4217C67B0006B6E94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A871C2217C67B0006B6E94 /* Main.storyboard */; };
@@ -17,9 +21,7 @@
 		C1A871C9217C67B1006B6E94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A871C7217C67B1006B6E94 /* LaunchScreen.storyboard */; };
 		C1A871D4217C67B1006B6E94 /* RealmPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A871D3217C67B1006B6E94 /* RealmPracticeTests.swift */; };
 		C1A871DF217C67B1006B6E94 /* RealmPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A871DE217C67B1006B6E94 /* RealmPracticeUITests.swift */; };
-		C1A871ED217C7131006B6E94 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A871EC217C7131006B6E94 /* MemoListTableViewController.swift */; };
 		C1A871EF217C713D006B6E94 /* AddMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A871EE217C713D006B6E94 /* AddMemoViewController.swift */; };
-		C1A871F1217C7154006B6E94 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A871F0217C7154006B6E94 /* DetailViewController.swift */; };
 		C1A871F3217C7528006B6E94 /* SingleMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A871F2217C7528006B6E94 /* SingleMemo.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +49,10 @@
 		6B3AFC3917D3635EC05AF2F1 /* Pods-RealmPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmPractice/Pods-RealmPractice.release.xcconfig"; sourceTree = "<group>"; };
 		92B7B337D420275222212C22 /* Pods-RealmPracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmPracticeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmPracticeTests/Pods-RealmPracticeTests.release.xcconfig"; sourceTree = "<group>"; };
 		9712B5A8AF82BD6887737037 /* Pods-RealmPracticeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmPracticeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmPracticeUITests/Pods-RealmPracticeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1223429217F043A00649359 /* CustomMemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMemo.swift; sourceTree = "<group>"; };
+		C16160E4218C7C8500DD6A22 /* CustomMemoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMemoListViewController.swift; sourceTree = "<group>"; };
+		C16160E6218C7E4600DD6A22 /* CustomMemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMemoTableViewCell.swift; sourceTree = "<group>"; };
+		C16160E7218C7E4600DD6A22 /* CustomMemoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomMemoTableViewCell.xib; sourceTree = "<group>"; };
 		C1A871BB217C67B0006B6E94 /* RealmPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A871BE217C67B0006B6E94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1A871C0217C67B0006B6E94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,9 +66,7 @@
 		C1A871DA217C67B1006B6E94 /* RealmPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A871DE217C67B1006B6E94 /* RealmPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmPracticeUITests.swift; sourceTree = "<group>"; };
 		C1A871E0217C67B1006B6E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1A871EC217C7131006B6E94 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		C1A871EE217C713D006B6E94 /* AddMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemoViewController.swift; sourceTree = "<group>"; };
-		C1A871F0217C7154006B6E94 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		C1A871F2217C7528006B6E94 /* SingleMemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleMemo.swift; sourceTree = "<group>"; };
 		C26C419A0EE0AFAC7FF67BF2 /* Pods_RealmPracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmPracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F2A6FBFA0805A15FC2C539 /* Pods_RealmPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,10 +151,12 @@
 			children = (
 				C1A871BE217C67B0006B6E94 /* AppDelegate.swift */,
 				C1A871F2217C7528006B6E94 /* SingleMemo.swift */,
+				C1223429217F043A00649359 /* CustomMemo.swift */,
 				C1A871C0217C67B0006B6E94 /* ViewController.swift */,
-				C1A871EC217C7131006B6E94 /* MemoListTableViewController.swift */,
 				C1A871EE217C713D006B6E94 /* AddMemoViewController.swift */,
-				C1A871F0217C7154006B6E94 /* DetailViewController.swift */,
+				C16160E4218C7C8500DD6A22 /* CustomMemoListViewController.swift */,
+				C16160E6218C7E4600DD6A22 /* CustomMemoTableViewCell.swift */,
+				C16160E7218C7E4600DD6A22 /* CustomMemoTableViewCell.xib */,
 				C1A871C2217C67B0006B6E94 /* Main.storyboard */,
 				C1A871C5217C67B1006B6E94 /* Assets.xcassets */,
 				C1A871C7217C67B1006B6E94 /* LaunchScreen.storyboard */,
@@ -285,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16160E9218C7E4600DD6A22 /* CustomMemoTableViewCell.xib in Resources */,
 				C1A871C9217C67B1006B6E94 /* LaunchScreen.storyboard in Resources */,
 				C1A871C6217C67B1006B6E94 /* Assets.xcassets in Resources */,
 				C1A871C4217C67B0006B6E94 /* Main.storyboard in Resources */,
@@ -369,11 +376,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RealmPractice/Pods-RealmPractice-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NYXImagesKit/NYXImagesKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NYXImagesKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
@@ -390,11 +399,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1A871EF217C713D006B6E94 /* AddMemoViewController.swift in Sources */,
+				C16160E5218C7C8500DD6A22 /* CustomMemoListViewController.swift in Sources */,
 				C1A871F3217C7528006B6E94 /* SingleMemo.swift in Sources */,
 				C1A871C1217C67B0006B6E94 /* ViewController.swift in Sources */,
-				C1A871F1217C7154006B6E94 /* DetailViewController.swift in Sources */,
+				C16160E8218C7E4600DD6A22 /* CustomMemoTableViewCell.swift in Sources */,
+				C122342A217F043A00649359 /* CustomMemo.swift in Sources */,
 				C1A871BF217C67B0006B6E94 /* AppDelegate.swift in Sources */,
-				C1A871ED217C7131006B6E94 /* MemoListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,10 +583,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3E76788VZ5;
 				INFOPLIST_FILE = RealmPractice/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TakaoAtsushi.RealmPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -592,10 +599,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3E76788VZ5;
 				INFOPLIST_FILE = RealmPractice/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TakaoAtsushi.RealmPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -612,11 +616,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3E76788VZ5;
 				INFOPLIST_FILE = RealmPracticeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TakaoAtsushi.RealmPracticeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -634,11 +634,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3E76788VZ5;
 				INFOPLIST_FILE = RealmPracticeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TakaoAtsushi.RealmPracticeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -655,11 +651,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3E76788VZ5;
 				INFOPLIST_FILE = RealmPracticeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TakaoAtsushi.RealmPracticeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -676,11 +668,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3E76788VZ5;
 				INFOPLIST_FILE = RealmPracticeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TakaoAtsushi.RealmPracticeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

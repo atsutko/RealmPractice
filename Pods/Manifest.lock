@@ -1,4 +1,5 @@
 PODS:
+  - NYXImagesKit (2.3)
   - Realm (3.11.0):
     - Realm/Headers (= 3.11.0)
   - Realm/Headers (3.11.0)
@@ -6,17 +7,20 @@ PODS:
     - Realm (= 3.11.0)
 
 DEPENDENCIES:
+  - NYXImagesKit
   - RealmSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - NYXImagesKit
     - Realm
     - RealmSwift
 
 SPEC CHECKSUMS:
+  NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
   Realm: 92f09a102692b96a9a10e9617f214f15c5ab85fc
   RealmSwift: 5f0481cd658bb751c509314b964a35eaa264d2cf
 
-PODFILE CHECKSUM: 002141a61d305c580cce8598a123814880fcbd4f
+PODFILE CHECKSUM: 989afef677fbd60e664fc7f1d4c139d3bd8ff729
 
 COCOAPODS: 1.5.3

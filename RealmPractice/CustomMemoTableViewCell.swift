@@ -10,6 +10,10 @@ import UIKit
 
 class CustomMemoTableViewCell: UITableViewCell {
 
+    @IBOutlet  var memoImageView: UIImageView!
+    @IBOutlet  var titleLabel: UILabel!
+    @IBOutlet  var detailTextView: UITextView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

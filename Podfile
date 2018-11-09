@@ -6,6 +6,8 @@ target 'RealmPractice' do
   use_frameworks!
 
   pod 'RealmSwift'
+  pod 'NYXImagesKit'
+
 
   # Pods for RealmPractice
 

@@ -24,9 +24,13 @@ class ViewController: UIViewController, UITextFieldDelegate, UITableViewDataSour
         
         memoTextField.delegate = self
         
+        
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
         let realm = try! Realm()
         self.memoList = realm.objects(SingleMemo.self)
-        // Do any additional setup after loading the view, typically from a nib.
     }
     
     
